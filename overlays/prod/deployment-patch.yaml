@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: was
+  spec:
+    template:
+      spec:
+        containers:
+          - name: was
+            image: 654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-backend-shop-login:v1.0.0
+            envFrom:
+              - secretRef:
+                  name: ljh-login-secret
+            resources:
+              requests:
+                cpu: 500m
+                memory: 256Mi
+              limits:
+                cpu: 500m
+                memory: 256Mi
