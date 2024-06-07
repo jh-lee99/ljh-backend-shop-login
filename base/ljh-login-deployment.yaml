@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: was
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: was
@@ -11,7 +11,3 @@ spec:
     metadata:
       labels:
         app: was
-    spec:
-      containers:
-        - name: was
-          image: 654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-backend-shop-login:v1.0.1
