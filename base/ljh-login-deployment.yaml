@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: was
-          image: 654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-backend-shop-login:v1.0.1
+          image: 654654416925.dkr.ecr.ap-northeast-1.amazonaws.com/ljh-backend-shop-login:v1.0.3
