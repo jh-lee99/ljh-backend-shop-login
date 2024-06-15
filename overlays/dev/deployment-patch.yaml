@@ -19,8 +19,8 @@ spec:
                 name: ljh-login-secret
           resources:
             requests:
-              cpu: 300m
-              memory: 128Mi
+              cpu: 250m
+              memory: 256Mi
             limits:
-              cpu: 300m
-              memory: 128Mi
+              cpu: 250m
+              memory: 256Mi
